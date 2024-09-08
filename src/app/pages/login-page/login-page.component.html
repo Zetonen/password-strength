@@ -1,0 +1,21 @@
+<div>
+  <h1 class="h1 login-title mb60">Password Strength</h1>
+  <form class="login-form mb16" [formGroup]="form" (input)="handlePasswordChange()">
+    <label class="login-label">
+      Password
+      <input
+        class="login-input"
+        formControlName="password"
+        type="password"
+        placeholder="Password"
+      />
+    </label>
+  </form>
+  <p class="mb32" [ngClass]="hintColor">{{ [hintText] }}</p>
+
+  <ul class="password-strength">
+    <li class="password-strength-item" [ngClass]="firstSectionClass"></li>
+    <li class="password-strength-item" [ngClass]="secondSectionClass"></li>
+    <li class="password-strength-item" [ngClass]="thirdSectionClass"></li>
+  </ul>
+</div>

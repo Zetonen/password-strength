@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import "reset-css";
+@import "margins";
+:root {
+  --dark-color: #00000d;
+  --light-color: #f0f0f0;
+  --text-color: #f0f0f0;
+  --grey-color: #5f646d;
+  --red-color: #ff0000;
+  --yellow-color: #ffff00;
+  --green-color: #00ff00;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--dark-color);
+}
+.h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+input {
+  font-family: inherit;
+  color: inherit;
+}
+.bg-gray {
+  background-color: var(--grey-color);
+}
+.bg-red {
+  background-color: var(--red-color);
+}
+.bg-yellow {
+  background-color: var(--yellow-color);
+}
+.bg-green {
+  background-color: var(--green-color);
+}
+.gray {
+  color: var(--grey-color);
+}
+.red {
+  color: var(--red-color);
+}
+.yellow {
+  color: var(--yellow-color);
+}
+.green {
+  color: var(--green-color);
+}
+.light {
+  color: var(--light-color);
+}

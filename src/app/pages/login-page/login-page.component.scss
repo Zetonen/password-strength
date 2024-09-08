@@ -1,0 +1,34 @@
+:host {
+  display: grid;
+  align-items: center;
+  height: 100dvh;
+  margin: 0 5%;
+}
+.login-title{
+  text-align: center;
+}
+.login-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.25;
+}
+.login-input {
+  padding: 12px 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: transparent;
+  border: 1px solid var(--light-color);
+  border-radius: 4px;
+}
+.password-strength {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8px;
+}
+.password-strength-item {
+  height: 10px;
+  border-radius: 4px;
+}
